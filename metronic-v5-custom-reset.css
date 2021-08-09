@@ -1,0 +1,274 @@
+﻿/*
+    Cores usadas:
+        Verde Escuro: #323435
+        Verde Claro: #787d62
+        Azul: #00767A
+        Light: #dbe1e6
+*/
+
+
+
+.brand {
+    background-color: #323435;
+}
+
+.header {
+    background-color: #323435;
+}
+
+.aside-menu {
+    background-color: #323435;
+}
+
+.aside {
+    background-color: #323435;
+}
+
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-heading, .aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link {
+    background-color: #787d62;
+}
+
+.aside-menu .menu-nav > .menu-item > .menu-heading .menu-text, .aside-menu .menu-nav > .menu-item > .menu-link .menu-text {
+    color: #dbe1e6;
+}
+
+.aside-menu .menu-nav > .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover > .menu-heading, .aside-menu .menu-nav > .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover > .menu-link {
+    background-color: #9b9c88;
+}
+
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover > .menu-heading, .aside-menu .menu-nav > .menu-item .menu-submenu .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover > .menu-link {
+    background-color: #9b9c88;
+}
+
+
+.btn.btn-primary {
+    color: #dbe1e6;
+    background-color: #787d62;
+    border-color: #787d62;
+}
+
+    .btn.btn-primary:hover:not(.btn-text):not(:disabled):not(.disabled), .btn.btn-primary:focus:not(.btn-text), .btn.btn-primary.focus:not(.btn-text) {
+        color: white;
+        background-color: #9b9c88;
+        border-color: #9b9c88;
+    }
+
+    .aside-menu .menu-nav > .menu-item.menu-item-open > .menu-heading, .aside-menu .menu-nav > .menu-item.menu-item-open > .menu-link {
+        background-color: #787d62;
+    }
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-open > .menu-heading, .aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-open > .menu-link {
+    background-color: #787d62;
+}
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-active > .menu-heading, .aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-active > .menu-link {
+    background-color: #787d62;
+}
+
+
+
+.label.label-primary {
+    background-color: #787d62;
+}
+
+.brand .btn.active .svg-icon svg g [fill], .brand .btn:hover .svg-icon svg g [fill] {
+    fill: #787d62;
+}
+
+.brand .btn .svg-icon svg g [fill] {
+    fill: #9b9c88;
+}
+
+.btn.btn-primary:not(:disabled):not(.disabled):active:not(.btn-text), .btn.btn-primary:not(:disabled):not(.disabled).active, .show > .btn.btn-primary.dropdown-toggle, .show .btn.btn-primary.btn-dropdown {
+    background-color: #323435;
+    border-color: #323435;
+}
+
+
+.checkbox.checkbox-outline > input:checked ~ span {
+    border-color: #787d62;
+/*    margin-left: 16px;
+*/}
+
+    .checkbox.checkbox-outline > input:checked ~ span:after{
+        border-color: #787d62;
+    }
+
+.dataTables_wrapper table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before {
+    color: #787d62;
+}
+
+.btn.btn-outline-primary i {
+    color: #babaa8;
+}
+.btn.btn-outline-primary {
+    color: #787d62;
+    background-color: transparent;
+    border-color: #787d62;
+}
+    .btn.btn-outline-primary.dropdown-toggle:after {
+        color: #787d62;
+    }
+
+.dataTables_wrapper .dataTables_paginate .pagination .page-item.active > .page-link {
+    background-color: #787d62;
+}
+
+.dataTables_wrapper .dataTables_paginate .pagination .page-item:hover:not(.disabled) > .page-link {
+    background-color: #787d62;
+}
+
+.scrolltop{
+    background-color: #787d62;
+}
+
+.btn.btn-light-primary {
+    color: #787d62;
+    background-color: #babaa8;
+}
+
+.switch.switch-primary:not(.switch-outline) input:checked ~ span:before {
+    background-color: #787d62;
+}
+
+.switch.switch-primary:not(.switch-outline) input:empty ~ span:before {
+    background-color: #787d62;
+}
+
+.switch.switch-primary:not(.switch-outline) input:checked ~ span:after {
+    color: #787d62;
+}
+
+.btn.btn-light-primary i {
+    color: #787d62;
+}
+
+.btn.btn-light-primary:hover:not(.btn-text):not(:disabled):not(.disabled), .btn.btn-light-primary:focus:not(.btn-text), .btn.btn-light-primary.focus:not(.btn-text) {
+    background-color: #787d62;
+}
+/*.checkbox-list .checkbox span {
+    margin-left: 16px;
+}
+*/
+.btn.btn-outline-primary:not(:disabled):not(.disabled):active:not(.btn-text), .btn.btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn.btn-outline-primary.dropdown-toggle, .show .btn.btn-outline-primary.btn-dropdown {
+    background-color: #787d62;
+    border-color: #787d62;
+}
+
+.btn.btn-outline-primary:hover:not(.btn-text):not(:disabled):not(.disabled), .btn.btn-outline-primary:focus:not(.btn-text), .btn.btn-outline-primary.focus:not(.btn-text) {
+    background-color: #787d62;
+    border-color: #787d62;
+}
+.accordion .card .card-header .card-title {
+   color: #787d62;
+}
+
+.svg-icon.svg-icon-primary svg g [fill] {
+    fill: #787d62 !important;
+}
+
+.dataTables_wrapper .dataTable th.sorting_asc, .dataTables_wrapper .dataTable td.sorting_asc {
+    color: #787d62 !important;
+}
+
+.dataTables_wrapper .dataTable th.sorting_desc, .dataTables_wrapper .dataTable td.sorting_desc {
+    color: #787d62 !important;
+}
+
+    .dataTables_wrapper .dataTable th.sorting_desc:after, .dataTables_wrapper .dataTable td.sorting_desc:after {
+        color: #787d62 !important;
+    }
+.dataTables_wrapper .dataTable th.sorting_asc:before, .dataTables_wrapper .dataTable td.sorting_asc:before {
+    color: #787d62 !important;
+}
+
+.form-control:focus {
+    border-color: #787d62;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple, .select2-container--default.select2-container--focus .select2-selection--single, .select2-container--default.select2-container--open .select2-selection--multiple, .select2-container--default.select2-container--open .select2-selection--single {
+    border-color: #787d62;
+}
+.progress-bar {
+    background-color: #787d62;
+}
+
+.btn.btn-default:hover:not(.btn-text):not(:disabled):not(.disabled), .btn.btn-default:focus:not(.btn-text), .btn.btn-default.focus:not(.btn-text) {
+    color: #787d62;
+}
+
+.modal .modal-header .close:hover i, .modal .modal-header .close:hover .ki {
+    color: #787d62;
+}
+
+.nav .show > .nav-link, .nav .nav-link:hover:not(.disabled), .nav .nav-link.active {
+    color: #787d62;
+}
+
+.topbar .btn.btn-icon:active, .topbar .btn.btn-icon.active, .topbar .btn.btn-icon:hover, .topbar .btn.btn-icon:focus, .topbar .show .btn.btn-icon.btn-dropdown {
+    background-color: #787d62 !important;
+}
+
+/*.checkbox.checkbox-outline > span {
+    margin-left: 16px;
+}*/
+
+.bootstrap-select.show > .dropdown-toggle.btn-light, .bootstrap-select.show > .dropdown-toggle.btn-secondary {
+    border-color: #787d62 !important;
+}
+
+.nav.nav-pills .show > .nav-link, .nav.nav-pills .nav-link.active {
+    background-color: #787d62;
+}
+
+.navi .navi-item .navi-link:hover .navi-text {
+    color: #787d62;
+}
+
+a.text-hover-primary:hover, .text-hover-primary:hover {
+    color: #787d62;
+}
+
+.radio > input:checked ~ span {
+    background-color: #787d62;
+}
+
+.nav.nav-pills.nav-danger .nav-link.active {
+    background-color: #787d62;
+}
+
+.nav.nav-pills.nav-danger .show > .nav-link, .nav.nav-pills.nav-danger .nav-link:hover:not(.active) {
+    color: #787d62;
+}
+
+.nav.nav-pills.nav-danger .show > .nav-link .nav-text, .nav.nav-pills.nav-danger .nav-link:hover:not(.active) .nav-text {
+    color: #787d62;
+}
+
+.nav.nav-pills.nav-danger .show > .nav-link .nav-icon .svg-icon svg g [fill], .nav.nav-pills.nav-danger .nav-link:hover:not(.active) .nav-icon .svg-icon svg g [fill]{
+    fill: #787d62;
+}
+
+.dashboard-tabs {
+    margin-bottom: 16px !important;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+    background-color: #787d62;
+}
+
+.bgi-size-cover{
+    filter: hue-rotate(190deg);
+}
+
+.btn.btn-primary.disabled, .btn.btn-primary:disabled {
+    background-color: #787d62;
+    border-color: #787d62;
+}
+
+.btn.btn-light-primary.disabled, .btn.btn-light-primary:disabled {
+    color: #787d62;
+    background-color: #babaa8;
+}
+
+.toast.toast-info {
+    background-color: #787d62;
+}
